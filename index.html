@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="box box-one">
+            <div>
+                <h1>We are hiring You</h1>
+            </div>
+        </div>
+        <div class="box box-two">
+            <form class="form-box" onsubmit="Validate()">
+                <div>
+                    <h1 class="login">Login</h1>
+                </div>
+                <div class="grey">
+                    <label class="lab" for="name">Enter Full Name</label><br>
+                    <input class="info" id="name" name="name" placeholder=' Write your Name Here'><br>
+                </div>
+                <div class="grey">
+                    <label class="lab" for="email">Email:</label><br>
+                    <input class="info" id="email" name="email" placeholder=' Write your Name Here'><br>
+                </div>
+                <div class="grey">
+                    <label class="lab" for="password">password:</label><br>
+                    <input class="info" type="password" id="password" name="password"
+                        placeholder="Write your Password Here"><br><br>
+                </div>
+                <div>
+                    <button class="btn" type="submit">  Login  </button>
+                </div>
+                
+                <div class="s-btn">
+                  <p class="grey">or sign up using</p>
+                  <img src="./images/twitter.png "alt="not found">
+                  <img src="./images/letter-g.png"alt="not found">
+                  <img src="./images//facebook.png"alt="not found">
+                  <p id="message"></p>
+                  <p class="grey">SIGN UP</p>      
+                </div>
+            </form>
+            <script src="script.js"></script>
+        </div>
+    </div>
+    
+</body>
+
+</html>
